@@ -1,5 +1,5 @@
 # PSVAR
-Panel SVAR estimation scrit
+Panel SVAR estimation script
 
 This Python (3.9) Jupyter notebook script adapts SVAR estimation to panel data. It uses LSDV OLS to estimate the reduced form VAR and groups the residuals to form a single covariance matrix (much like the STATA xtvar package by Tobias Cagala and Ulrich Glogowsky, Boston College). The covariance matrix is then Choleski decomposed to recover the structural model.
 
