@@ -8,6 +8,7 @@ To set up, make sure that the pandas, numpy, and matplotlib libraries are instal
 2. The spreadsheet contains a column that indexes time (preferably in integer format, cannot guarantee other date formats will work).
 3. The panel is balanced.
 See the data.xlsx file for an example structure.
+
 Specify the model you would like to estimate in the first cell (e.g. lag length, causal ordering of the covariates, etc.). Then, run all cells. The program will save three files:
 1. A .npy file containing bootstrapped IRFs and CIRFs used for confidence interval estimation.
 2. A .npy file containing series of IRFs and CIRFs, as well as their confidence intervals.
